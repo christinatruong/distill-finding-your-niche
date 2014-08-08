@@ -14,13 +14,13 @@
 				font-size: 24px;
 				width: 640px;
 				margin-top: 5px;
-				clear: left;
+				/*clear: left;*/
 			}
 
 			#wrap-current-slide {
 				width: 640px;
 				height: 512px;
-				float: left;
+				/*float: left;*/
 				overflow: hidden;
 			}
 
@@ -45,7 +45,7 @@
 			#wrap-next-slide {
 				width: 448px;
 				height: 358px;
-				float: left;
+				/*float: left;*/
 				margin: 0 0 0 10px;
 				overflow: hidden;
 			}
@@ -134,6 +134,7 @@
 			}
 
 		</style>
+		<link rel="stylesheet" href="../../../css/custom.css">
 	</head>
 
 	<body>
@@ -146,6 +147,7 @@
 			var notesNextSlideURL = getNotesURL( false );
 		</script>
 
+	<div class="left">
 		<div id="wrap-current-slide" class="slides">
 			<script>document.write( '<iframe width="1280" height="1024" id="current-slide" src="'+ notesCurrentSlideURL +'"></iframe>' );</script>
 		</div>
@@ -165,6 +167,7 @@
 				<span id="hours">00</span><span id="minutes">:00</span><span id="seconds">:00</span>
 			</div>
 		</div>
+	</div>
 
 		<div id="notes"></div>
 

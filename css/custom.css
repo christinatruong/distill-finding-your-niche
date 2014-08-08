@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Open+Sans);
+/* Custom theme based on Black theme for reveal.js */
+/* GLOBAL STYLES 
+-----------------*/
+body {
+  background: #111111;
+  background-color: #111111; }
+
+.reveal {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  color: #eeeeee; }
+
+::selection {
+  color: white;
+  background: #e7ad52;
+  text-shadow: none; }
+
+.reveal h1, .reveal h2 {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: -0.08em;
+  text-transform: uppercase; }
+.reveal h3 {
+  font-weight: normal;
+  margin: 25px 0 10px; }
+.reveal a:not(.image) {
+  color: #8dd792; }
+.reveal img, .reveal video, .reveal iframe {
+  max-width: 100%;
+  max-height: 100%; }
+.reveal img, .reveal iframe {
+  margin: 35px auto;
+  display: block; }
+.reveal ol {
+  font-size: 50px;
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+.reveal ul {
+  margin-top: 20px; }
+  .reveal ul li {
+    margin: 30px; }
+.reveal .diversity ol {
+  margin-left: 150px; }
+.reveal .suess img {
+  width: 800px; }
+.reveal .readings p {
+  text-align: left; }
+
+.first h1 {
+  font-size: 160px; }
+.first h2 {
+  margin: 30px 0 10px; }
+.first h3 {
+  font-size: 32px; }
+
+#current-slide {
+  width: 950px;
+  height: 750px; }
+
+#wrap-current-slide {
+  width: 500px;
+  height: 360px; }
+
+#wrap-next-slide {
+  height: 180px; }
+
+#next-slide {
+  width: 1020px;
+  height: 520px; }
+
+.left {
+  float: left; }
+
+#notes {
+  background: white;
+  color: black;
+  width: 58%;
+  height: 620px;
+  overflow: scroll;
+  padding: 20px;
+  float: right; }
