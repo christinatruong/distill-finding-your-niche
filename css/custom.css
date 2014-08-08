@@ -48,6 +48,8 @@ body {
   width: 800px; }
 .reveal .readings p {
   text-align: left; }
+.reveal .instructions {
+  font-size: 16px; }
 
 .first h1 {
   font-size: 160px; }
