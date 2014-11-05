@@ -4,7 +4,7 @@ At talk on diversity in tech at [Distill: The Essence of Development](https://di
 
 August 7-8, 2014  •  San Francisco, CA
 
-Video link: http://christinatruong.github.io/distill-finding-your-niche/
+Video link: http://vimeo.com/105594353
 
 You can find me on Twitter [@christinatruong](http://twitter.com/christinatruong)
 
